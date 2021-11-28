@@ -23,6 +23,7 @@ public class ReadSymptomDataFromFile implements ISymptomReader {
 	}
 	
 	@Override
+ //eleminer les erreurs 
 	public List<String> GetSymptoms() {
 		ArrayList<String> result = new ArrayList<String>();
 		
